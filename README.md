@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# React To-Do List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple To-Do list app done with React. All tasks are saved into browser's local storage only. The app development
+was inspired by the first brazilian live coding of the [React Nanodegree Program](https://udacity.com/course/react-nanodegree--nd019). 
 
-## Available Scripts
+<img src="https://raw.githubusercontent.com/computationalcore/react-to-do-list/gh-pages/to-do-list.gif" alt="Todo List" style="width: 320px; height: 582px"/>
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
+[computationalcore.github.io/react-to-do-list](https://computationalcore.github.io/react-to-do-list)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+These instructions will get you a copy of the project up and running on your local machine for development and testing 
+purposes. 
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project can be built with npm or yarn, so choose one of the approach bellow in case you don't 
+have any installed on your system. 
 
-### `npm run build`
+* npm is distributed with Node.js which means that when you download Node.js, 
+you automatically get npm installed on your computer. [Download Node.js](https://nodejs.org/en/download/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+or
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Yarn is a package manager built by Facebook Team and seems to be faster than npm in general.  [Download Yarn](https://yarnpkg.com/en/docs/install)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installing
 
-### `npm run eject`
+To download the project follow the instructions bellow
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+git clone https://github.com/computationalcore/react-to-do-list
+cd myreads
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies and run with:
+ 
+npm
+```
+npm install
+npm start
+```
+or
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+yarn
+```
+yarn install
+yarn start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Versions
 
-## Learn More
+v1.0 
+* Default project implementation 
+ 
+v1.1 
+* Change to material UI based interface
+* Task transitions animations
+* Remove tasks capabilities
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Authors
+Vin Busquet
+* [https://github.com/computationalcore](https://github.com/computationalcore)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+* [Udacity](https://www.udacity.com/)
+* [Matheus Marsiglio](https://github.com/mtmr0x)
+* [Thales Moreira Carvalho](https://github.com/thalescomp)
